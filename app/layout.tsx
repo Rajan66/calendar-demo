@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import "react-big-calendar/lib/css/react-big-calendar.css"
+
+import { cn } from "@/lib/utils"
+
+
+import TanstackProvider from "@/components/providers/TanstackProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +22,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <TanstackProvider>
+          <div className="min-h-[calc(100vh-56px)] flex flex-col p-24 max-w-5xl m-auto gap-2">{children}</div>
+        </TanstackProvider>
+      </body>
     </html>
   );
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  AdvancedCalendar,
   BasicCalendar,
   ControlCalendar,
   CustomCalendar,
@@ -12,7 +13,8 @@ const page = () => {
     <div className="">
       {/* <BasicCalendar/> */}
       {/* <ControlCalendar/>  */}
-      <CustomCalendar />
+      {/* <CustomCalendar /> */}
+      <AdvancedCalendar />
     </div>
   );
 };

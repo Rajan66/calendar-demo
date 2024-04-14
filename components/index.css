@@ -1,0 +1,24 @@
+/* this is crucial, if the height is not specified the calendar won't show */
+.rbc-calendar {
+  min-height: 580px;
+  background-color: lavender;
+}
+
+.rbc-header {
+  background: rgb(236, 213, 106);
+  color: black;
+  padding: 4px;
+  font-weight: bold;
+}
+
+.rbc-event {
+  padding: 8 !important;
+  font-size: 16px;
+  text-align: center;
+  background-color: rgb(255, 224, 167);
+  color: black;
+}
+
+.rbc-event-label {
+  display: none;
+}

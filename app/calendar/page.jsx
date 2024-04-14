@@ -1,12 +1,18 @@
 "use client";
 
-import { BasicCalendar } from "@/components/index";
+import {
+  BasicCalendar,
+  ControlCalendar,
+  CustomCalendar,
+} from "@/components/index";
 import React from "react";
 
 const page = () => {
   return (
-    <div className="h-[600px]">
-      <BasicCalendar />
+    <div className="">
+      {/* <BasicCalendar/> */}
+      {/* <ControlCalendar/>  */}
+      <CustomCalendar />
     </div>
   );
 };

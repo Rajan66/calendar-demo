@@ -21,7 +21,8 @@ const events = [
     },
 
 ];
-
-export default function BasicCalendar() {
-    return <Calendar events={events} />;
+export default function CustomCalendar() {
+    return (
+        <Calendar events={events} />
+    )
 }

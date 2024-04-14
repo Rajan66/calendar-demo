@@ -8,10 +8,16 @@ const events = [
         title: "MRI Registration",
     },
     {
-        start: moment("2024-04-12T14:00:00").toDate(),
-        end: moment("2023-04-12T15:30:00").toDate(),
+        start: moment("2024-04-19T14:00:00").toDate(),
+        end: moment("2024-04-19T15:30:00").toDate(),
         title: "ENT Appointment",
     },
+    {
+        start: moment("2024-04-21T14:00:00").toDate(),
+        end: moment("2024-04-24T15:30:00").toDate(),
+        title: "Random event",
+    },
+
 ];
 
 export default function BasicCalendar() {

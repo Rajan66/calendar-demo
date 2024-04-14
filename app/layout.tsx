@@ -3,9 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "react-big-calendar/lib/css/react-big-calendar.css"
 
-import { cn } from "@/lib/utils"
-
-
 import TanstackProvider from "@/components/providers/TanstackProvider";
 
 const inter = Inter({ subsets: ["latin"] });

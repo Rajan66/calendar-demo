@@ -38,7 +38,6 @@ const MakeTodo = () => {
             />
             <Button
                 onClick={() => submitTodo()}
-                
                 disabled={isPending}
             >Submit</Button>
         </div>
